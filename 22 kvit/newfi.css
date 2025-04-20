@@ -1,0 +1,233 @@
+body{
+    width:2560px; 
+    height:1440px;
+    position: relative;
+}
+footer{
+    position: relative;
+    height: 262px;
+    width:2560px; 
+    border-top: 2px solid rgb(207, 195, 195);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+header a.dovidka,
+header a.contacts {
+    display: inline-block;
+    text-align: center;
+    line-height: 55px; 
+    width: 143px;
+    height: 60px;
+    font-size: 22px;
+    color: white;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    transition: background-color 0.3s ease;}
+header a:hover {
+    background-color: #e65050; 
+  }
+header .NashMarket{
+    position: absolute;
+    top: 10px;
+    right:10px;
+    font-size: 20px;
+    color: #000;
+    margin-right: 200px;
+    margin-top: 25px;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    position: relative;
+}
+.signup{
+    position: absolute;
+    color: whitesmoke;
+    width: 77px;
+    text-align: center;
+    height: 50px;
+    right: 10px;
+    top: 20px;
+    border: none;
+    font-family: 'Saira Condensed', sans-serif;
+    background-color: #e65050;
+    font-size:larger;
+    text-decoration: none;
+    margin-inline-start: 20px;
+}
+main .textlefttop{
+    position: relative;
+    width: 766px;
+    height: 236px;
+    margin-top: 50px;
+    margin-left: 150px;
+    font-family: 'Inter', sans-serif;
+    font-weight:bold;
+}
+main .tmg{
+    position: absolute;
+    margin-left: 850px;
+    margin-top: -150px;
+}
+.ops{
+    position: relative;
+    border:none;
+    margin-top: 250px;
+    
+}
+.ops h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+.ops p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(115, 111, 111, 1);
+    width: 627px;
+}
+main .Планер{
+     position: absolute;
+     right: 0;
+     top: 80px;
+}
+.container{
+    width: 1267px;
+    height: 306px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0px;
+    flex-direction: row;   
+    transform: translate(70%, -130%)
+}
+.firstcomm, .secondcomm, .thirdcomm{
+    position: relative;
+    height: 306px;
+    width: 422px;
+    border: 2px solid lightgray;
+    border-radius: 12px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+.firstcomm{
+}
+.secondcomm{
+}
+.commgen{
+    padding: 32.67px;
+}
+.commgen2{
+    padding: 32.67px;
+}
+.commgen3{
+    padding: 32.67px;
+}
+.tonny{
+    position: absolute;
+    left: 35px;
+    bottom: 25px;
+}
+
+.ntonny{
+    position: absolute;
+    left: 95px;
+    bottom: 30px;
+    font-size: 16px;
+}
+.divka{
+    position: absolute;
+    left: 35px;
+    bottom: 25px;
+}
+.divka2{
+    position: absolute;
+    left: 35px;
+    bottom: 25px;
+}
+.jtonny{
+    position: absolute;
+    left: 95px;
+    bottom: 10px;
+    font-size: 16px;
+    color:rgba(130, 130, 130, 1)
+}
+.divkaname{
+    position: absolute;
+    left: 95px;
+    bottom: 30px;
+    font-size: 16px;
+}
+.jdivka{
+    position: absolute;
+    left: 95px;
+    bottom: 10px;
+    font-size: 16px;
+    color:rgba(130, 130, 130, 1)
+}
+.divka2name{
+    position: absolute;
+    left: 95px;
+    bottom: 30px;
+    font-size: 16px;
+}
+.jdivka2{
+    position: absolute;
+    left: 95px;
+    bottom: 10px;
+    font-size: 16px;
+    color:rgba(130, 130, 130, 1)
+}
+.a1{
+    position: absolute;
+   color:rgba(65, 218, 218, 1);
+   font-family: 'Inter', sans-serif;
+   font-size: 16px;
+   margin-top: -200px;
+}
+.sitename{
+    width: 191px;
+    height: 36px;
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size:24px;
+    top: 15px;
+    left: 15px;
+}
+footer .fotkises
+{
+    height:80px;
+    width:80px;
+    display: flex;
+    
+    flex-direction: column;  
+}
+.sl{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    transform: translate(10%,80%);
+}
+.Instag, .youtube, .facebook{
+    font-family: 'Inter', sans-serif;
+        font-size: 24px;
+       text-decoration: none;
+       color: rgba(69, 69, 69, 1);
+        transform: translate(10%,80%);
+}
+.tekstes{
+    position: absolute;
+    margin-left: 1500px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
